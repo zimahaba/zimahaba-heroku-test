@@ -8,6 +8,6 @@ public class HerokuController {
 
     @GetMapping("/teste")
     public String teste() {
-        return "OKKKKK";
+        return "OPAAA";
     }
 }
