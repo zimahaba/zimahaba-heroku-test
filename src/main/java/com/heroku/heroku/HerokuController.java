@@ -7,7 +7,9 @@ import org.springframework.web.bind.annotation.RestController;
 public class HerokuController {
 
     @GetMapping("/teste")
-    public String teste() {
-        return "OPAAA";
+    public Heroku teste() {
+        Heroku h = new Heroku();
+        h.setTitle("OPS");
+        return h;
     }
 }
